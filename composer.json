@@ -1,0 +1,29 @@
+{
+  "name": "wow/FeedReader",
+  "description": "Feed Reader",
+  "license" : "MIT",
+  "authors": [
+    {
+      "name": "ilham Deneri",
+      "email": "ilhamdeneri@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/options-resolver": "^3.3",
+    "doctrine/inflector": "^1.1"
+  },
+  "require-dev": {
+    "psr/log": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wow\\FeedReader\\": "src/"
+    },
+    "exclude-from-classmap": [
+    ]
+  },
+  "autoload-dev": {
+
+  }
+}
